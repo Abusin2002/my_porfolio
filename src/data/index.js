@@ -145,8 +145,8 @@ export const STATS = [
 ];
 
 export const SOCIALS = [
-  { name: 'LinkedIn', href: '#', icon: 'linkedin' },
-  { name: 'GitHub', href: '#', icon: 'github' },
-  { name: 'LeetCode', href: '#', icon: 'leetcode' },
+  { name: 'LinkedIn', href: 'https://linkedin.com/in/abu-softwareengineer', icon: 'linkedin' },
+  { name: 'GitHub', href: 'https://github.com/Abusin2002', icon: 'github' },
+  { name: 'LeetCode', href: 'https://leetcode.com/u/abu0101/', icon: 'leetcode' },
   { name: 'WhatsApp', href: 'https://wa.me/917540030577', icon: 'whatsapp' },
 ];

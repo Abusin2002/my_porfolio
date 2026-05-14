@@ -3,9 +3,9 @@ import { FaLinkedin } from 'react-icons/fa';
 import { SiReact, SiGithub, SiLeetcode, SiWhatsapp } from 'react-icons/si';
 
 const SOCIALS = [
-  { Icon: FaLinkedin, href: '#', color: '#0077b5' },
-  { Icon: SiGithub, href: '#', color: '#ffffff' },
-  { Icon: SiLeetcode, href: '#', color: '#ffa116' },
+  { Icon: FaLinkedin, href: 'https://linkedin.com/in/abu-softwareengineer', color: '#0077b5' },
+  { Icon: SiGithub, href: 'https://github.com/Abusin2002', color: '#ffffff' },
+  { Icon: SiLeetcode, href: 'https://leetcode.com/u/abu0101/', color: '#ffa116' },
   { Icon: SiWhatsapp, href: 'https://wa.me/917540030577', color: '#25d366' },
 ];
 

@@ -145,7 +145,7 @@ npm run build && npm run deploy
 ## 🔍 SEO
 
 - Edit `index.html` to update meta tags, OG image URL, and canonical URL
-- Replace `abu@gmail.com` with your real email
+- Replace `mohamedabusinai2020@gmail.com` with your real email
 - Add a real `og-image.png` (1200×630) in the `public/` folder
 - Consider adding `sitemap.xml` and `robots.txt` to `public/`
 

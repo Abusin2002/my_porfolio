@@ -6,9 +6,9 @@ import { FaLinkedin } from 'react-icons/fa';
 import { SiGithub, SiLeetcode, SiWhatsapp } from 'react-icons/si';
 
 const SOCIALS = [
-  { Icon: FaLinkedin, label: 'LinkedIn', href: '#', color: '#0077b5' },
-  { Icon: SiGithub, label: 'GitHub', href: '#', color: '#ffffff' },
-  { Icon: SiLeetcode, label: 'LeetCode', href: '#', color: '#ffa116' },
+  { Icon: FaLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/abu-softwareengineer', color: '#0077b5' },
+  { Icon: SiGithub, label: 'GitHub', href: 'https://github.com/Abusin2002', color: '#ffffff' },
+  { Icon: SiLeetcode, label: 'LeetCode', href: 'https://leetcode.com/u/abu0101/', color: '#ffa116' },
   { Icon: SiWhatsapp, label: 'WhatsApp', href: 'https://wa.me/917540030577', color: '#25d366' },
 ];
 
@@ -72,7 +72,7 @@ export default function Contact() {
             <div className="glass rounded-2xl p-7 border border-white/[0.07]">
               <h3 className="font-bold text-white text-base mb-6">Direct Contact</h3>
               {[
-                { Icon: FiMail, label: 'Email', val: 'abu@gmail.com', href: 'mailto:abu@gmail.com', color: '#00d4ff' },
+                { Icon: FiMail, label: 'Email', val: 'mohamedabusinai2020@gmail.com', href: 'mailto:mohamedabusinai2020@gmail.com', color: '#00d4ff' },
                 { Icon: FiMessageCircle, label: 'WhatsApp', val: '+91 7540030577', href: 'https://wa.me/917540030577', color: '#25d366' },
               ].map(({ Icon, label, val, href, color }) => (
                 <a key={label} href={href} target="_blank" rel="noreferrer"
