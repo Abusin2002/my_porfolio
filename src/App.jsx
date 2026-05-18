@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import AnimatedGrid from '@/components/Common/AnimatedGrid';
 import ScrollProgress from '@/components/Common/ScrollProgress';
 import Navbar from '@/components/Navbar';
@@ -26,6 +27,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
